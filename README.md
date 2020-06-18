@@ -2,7 +2,7 @@
 
 The following contents give an brief introduction to the usage of the MAS with Jason. However, for more details about the scenario, please check the [report](./assignment2-section1.pdf). 
 
-## Why I am doing this?
+## Why am I doing this?
 
 This is the repository related to a coursework assignment of the course *Intelligent Information Systems*[^1].
 
