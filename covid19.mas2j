@@ -1,0 +1,27 @@
+/*
+ * Defines the MAS of safe shopping during COVID-19 outbreak.
+ * 
+ * Author:	Jinhang Zhu
+ * UoB ID:	1950951
+ * Descriptions:
+ * 		In the environment: the shop Tesco Express, John (agent: customer1) infected
+ * 		with the coronavirus is shopping. The porter Mike (agent: staff) checks if the
+ * 		number of customers has reached its limit to determine whether to let in another
+ * 		customer Rachel (agent: customer2) who is healthy. Whether or not that John coughs
+ * 		depends on a random belief.
+ * 
+ * For more information about this example, see
+ * . README.md
+*/
+MAS covid19 {
+
+	infrastructure: Centralised
+
+	agents:
+		mike staff;			// the staff or porter of the shop
+		rachel customer2;	// the second customer who is not infected with SARS-COV-2
+		john customer1;		// the first customer who is infected with SARS-COV-2
+
+	aslSourcePath:
+		"src/asl";
+}
